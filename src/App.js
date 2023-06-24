@@ -1,15 +1,11 @@
-import { Page } from "@shopify/polaris";
+import React from 'react';
+import { Page } from '@shopify/polaris';
 
 function App() {
   return (
-    <div className="App">
-
-      <Page title="home">
-        <h1>Welcome Home</h1>
-
-      </Page>
-
-    </div>
+    <Page title="home">
+      page content
+    </Page>
   );
 }
 
